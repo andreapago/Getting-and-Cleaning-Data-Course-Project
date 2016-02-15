@@ -18,4 +18,6 @@ __tidyDatasetCreator()__:
 
 - Appropriately labels the data set with descriptive variable names.
 
-__computeMeanForSubjectAndAcivity()__: creates a second, independent tidy data set (by re using the results of tidyDatasetCreator() function) with the average of each variable for each activity and each subject.
+__computeMeanForSubjectAndAcivity()__: creates a second, independent tidy data set (by calling and using th results of tidyDatasetCreator() function) with the average of each variable for each activity and each subject.
+
+__NB: to produce the step 5 of the assignment (i.e., From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.)  one should just call the function computeMeanForSubjectAndAcivity()__
